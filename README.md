@@ -35,9 +35,6 @@
   
 </p>
 
-## Demo 
-https://www.canva.com/design/DAFb-i9v_cM/-fK0pKTuOkFq5dfCPQxh_w/watch?utm_content=DAFb-i9v_cM&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink
-
 ## Description
 Supply chain is always hard to manage and requires a lot of admistrative machinery. However, when managed with smart contracts using blockchain, a lot of the paperwork is reduced.
 Also it leads to an increase in the transparency and helps to build an efficient Root of Trust. Supply-chain-dapp is such an implementation of a supply chain management system which uses blockchain to ensure a transparent and secure transfer of product from the manufacturer to the customer via the online e-commerce websites. 
@@ -161,13 +158,3 @@ Select "Custom RPC" and enter the RPC server URL and port number for your Ganach
      ![https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs76Q1oyMK717kRZ8FMC_i2VCstu8H2yZFqlfgccSsalxBXWm2PBwzS-peIFv4DqGos9g&usqp=CAU](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs76Q1oyMK717kRZ8FMC_i2VCstu8H2yZFqlfgccSsalxBXWm2PBwzS-peIFv4DqGos9g&usqp=CAU)
  3. Add All participate(Raw Material,Supplier,Manufacture,Retail). by following above Step
 
-### License
-This project uses an [MIT](https://opensource.org/licenses/MIT) license.
-## Documentation to help with Solidity
-https://docs.soliditylang.org/en/v0.8.4/
-## Documentation to help with React
-https://reactjs.org/docs/getting-started.html
-## Documentation to help with Truffle
-https://www.trufflesuite.com/docs/truffle/reference/configuration
-## Documentation to help with Ganache-cli
-https://www.trufflesuite.com/docs/ganache/overview
