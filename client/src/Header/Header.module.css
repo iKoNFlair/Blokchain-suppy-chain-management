@@ -1,0 +1,51 @@
+.header {
+  padding: 2% 7%;
+  background-color: rgb(0, 32, 80);
+  color: #ffd700;
+  align-items: center;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  align-items: center;
+}
+
+.titleIcon{
+    color: white;
+    font-size: 1.3em;
+    margin-right: 10px;
+}
+
+.navLinks {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+
+.navItem {
+    margin: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.1em;
+    transform: scale(0.99);
+    text-transform: uppercase;
+    transition: 0.5s;
+
+}
+
+.navItem:hover {
+  color: white;
+  transform: scale(1);
+}
+
+.active{
+    color: greenyellow;
+}

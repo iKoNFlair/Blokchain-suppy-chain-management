@@ -1,0 +1,116 @@
+/* AssignRoles.module.css */
+
+.address {
+  background-color: rgb(0, 32, 80);
+  padding: 2% 8%;
+  margin-bottom: 20px;
+}
+.account {
+  color: #ffd700;
+}
+
+.accountValue {
+  color: white;
+}
+
+.chainFlow, .flow{
+    margin: 15px;
+}
+.container{
+    text-align: center;
+    padding: 0 15%;
+}
+.btnSm {
+  cursor: pointer;
+  padding: 0.3rem 0.8rem;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  border-radius: 0.25rem;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+  background-color: #000000;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 5px;
+}
+
+.roles {
+  text-align: center;
+  padding: 0 15%;
+}
+
+.btnSm:hover {
+  background-color: #dc3545;
+  color: white;
+  border-color: #dc3545;
+}
+
+.form {
+  margin: 1rem 0;
+}
+
+.formControlSm {
+  margin: 5px;
+  width: 100%;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.formControlSm:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered thead th,
+.table-bordered thead td {
+  border-bottom-width: 2px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}

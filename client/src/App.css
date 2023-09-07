@@ -1,12 +1,9 @@
-hr{
-    position: relative;
-    top: 20px;
-    border: none;   
-    height: 12px;
-    background: black;
-}
-.wait{
-    text-align: center;
-    margin-top: 5rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}

@@ -1,24 +1,25 @@
-import './App.css';
-import AssignRoles from './AssignRoles';
-import Home from './Home';
-import AddMed from './AddMed';
-import Supply from './Supply'
-import Track from './Track'
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Import BrowserRouter and other necessary components
+import "./App.css";
+import AssignRoles from "./AssignRoles/AssignRoles";
+import Home from "./Home/Home";
+import AddMed from "./AddMed/AddMed";
+import Supply from "./Supply/Supply";
+import Track from "./Track/Track";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/roles" component={AssignRoles} />
-          <Route path="/addmed" component={AddMed} />
-          <Route path="/supply" component={Supply} />
-          <Route path="/track" component={Track} />
-        </Switch>
-      </Router>
-    </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/roles" element={<AssignRoles />} />
+          <Route path="/addmed" element={<AddMed />} />
+          <Route path="/supply" element={<Supply />} />
+          <Route path="/track" element={<Track />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
